@@ -13,7 +13,6 @@ const BlogDetails = () => {
     },[id])
     return (
         <div className="bg-slate-200 mt-16 rounded-lg p-6">
-            {id}
             <h1 className="font-bold text-xl text-slate-500">Titile: {blog.title}</h1>
             <div className="flex justify-center mt-6 rounded-lg">
                 <img className="w-40 rounded-lg" src={blog.imageURL} alt="" />
